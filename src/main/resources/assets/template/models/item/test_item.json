@@ -1,0 +1,6 @@
+{
+  "parent":"template:item/standard_item",
+  "textures": {
+    "layer0":"template:items/bluestone"
+  }
+}
