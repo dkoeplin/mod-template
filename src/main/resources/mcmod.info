@@ -1,14 +1,14 @@
 [
 {
-  "modid": "template",
-  "name": "Mod Template",
-  "description": "Template mod.",
-  "version": "1.0",
-  "mcversion": "1.11.2",
+  "modid": "examplemod",
+  "name": "Example Mod",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ironclad49er"],
-  "credits": "The Forge and FML guys!",
+  "authorList": ["ExampleDude"],
+  "credits": "The Forge and FML guys, for making this example",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

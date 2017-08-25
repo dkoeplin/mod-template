@@ -19,6 +19,7 @@
 package ironclad49er.template.client;
 
 import ironclad49er.template.ModTemplate;
+import ironclad49er.template.init.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -32,6 +33,6 @@ public final class ItemRenderRegister {
     }
 
     public static void registerItemRenderers() {
-        reg(ModTemplate.testItem);
+        reg(ModItems.testItem);
     }
 }

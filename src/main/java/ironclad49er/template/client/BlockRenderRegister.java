@@ -19,6 +19,8 @@
 package ironclad49er.template.client;
 
 import ironclad49er.template.ModTemplate;
+import ironclad49er.template.init.ModBlocks;
+import ironclad49er.template.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -33,6 +35,6 @@ public class BlockRenderRegister {
     }
 
     public static void registerBlockRenderer() {
-        reg(ModTemplate.testBlock);
+        reg(ModBlocks.testBlock);
     }
 }
